@@ -1,0 +1,14 @@
+{
+  "config": {
+    "platform": {
+      "php": "8.2.6"
+    },
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^8.2",
+    "php-di/php-di": "^7.0",
+    "nutgram/nutgram": "^3.20",
+    "monolog/monolog": "^3.3"
+  }
+}

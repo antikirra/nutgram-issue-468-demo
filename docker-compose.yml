@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  cli:
+    image: nutgram-issue-468-demo:latest
+    env_file:
+      - app/.env
+    stop_signal: SIGINT
+    stop_grace_period: 1s
